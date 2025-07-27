@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+#gitignore the data files because they are really large and git push is failing
+#Removed the data files from the repo
+*.json
+*.json.gz
+
 # Distribution / packaging
 .Python
 build/
@@ -205,3 +210,5 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+data/Electronics.jsonl.gz
+data/meta_Electronics.jsonl.gz
