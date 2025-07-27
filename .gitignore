@@ -8,8 +8,8 @@ __pycache__/
 
 #gitignore the data files because they are really large and git push is failing
 #Removed the data files from the repo
-*.json
-*.json.gz
+#*.json
+#*.json.gz
 
 # Distribution / packaging
 .Python
